@@ -1,0 +1,14 @@
+/* En un archivo CustomDarkTheme.css */
+:root {
+    --bs-body-bg: #121212;
+    --bs-body-color: #e0e0e0;
+    --bs-card-bg: #1e1e1e;
+  }
+  
+  .card {
+    border-color: #cf2e2e;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+
+ 
