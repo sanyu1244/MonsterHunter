@@ -98,7 +98,7 @@ app.get('/api/monstruos', async (req, res) => {
 
     // Procesar los resultados
     const datos = await procesarResultados(result.rows);
-    console.log('Datos procesados');
+    // console.log('Datos procesados');
 
     // Enviar la respuesta JSON
     res.json(JSON.parse(JSON.stringify(datos, manejarReferenciasCirculares())));
