@@ -1,8 +1,8 @@
-// src/components/Navbar.js
 import React from 'react';
 import { Link,NavLink } from 'react-router-dom';
-import './Navbar.css';
+import './css/Navbar.css';
 
+//  la barra de navegacion de la aplicacion 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
@@ -20,10 +20,10 @@ function Navbar() {
               <NavLink className="nav-link" to="/mapas">Mapas</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/mapas">Armaduras</NavLink> {/* completar la ruta con react que aun no esta creada y donde esta mapas tendria que ir Armadura que hace referencia al correcto */}
+              <NavLink className="nav-link" to="/Armaduras">Armaduras</NavLink> 
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/mapas">Armas</NavLink>  {/* completar la ruta con react que aun no esta creada y aqui lo mismo que armadura pero con las armas */}
+              <NavLink className="nav-link" to="/Armas">Armas</NavLink> 
             </li>
             {/* Puedes agregar más enlaces aquí */}
           </ul>

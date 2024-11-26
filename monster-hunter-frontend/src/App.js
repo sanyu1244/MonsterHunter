@@ -8,6 +8,8 @@ import ListaMonstruos from './components/ListaMonstruos';
 import DetalleMonstruo from './components/DetalleMonstruo';
 import Buscador from './components/Buscador';
 import Mapas from './components/Mapas';
+import Armas from './components/Armas';
+// import Armaduras from './components/Armaduras';
 import Navbar from './components/Navbar';
 import sunbreak from './assets/img/sunbreak.png';
 
@@ -56,6 +58,7 @@ function MonstruosApp() {
               } />
             <Route path="/monstruo/:id" element={<DetalleMonstruo monstruos={monstruos} />} />
             <Route path='/mapas' element={<Mapas/>}/>
+            <Route path='/armas' element={<Armas/>}/>
         </Routes>
         </div>
       </div>

@@ -1,9 +1,15 @@
 .main-container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto ;
   padding: 20px;
   background-color: #1e1e1e; /* Fondo oscuro para coincidir con la imagen */
   color: white; /* Texto blanco para contraste */
+}
+.contenedor-principal {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
 }
 
 .title {
@@ -16,6 +22,12 @@
   width: 100%;
   aspect-ratio: 1 / 1; /* Mantiene una relación de aspecto cuadrada */
   margin: 0 auto;
+}
+
+.contenedor-info {
+  width: 20%; /* Ajuste según sea necesario */
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .image-container {
@@ -88,6 +100,7 @@
 .dot.active {
   background: #b41c1c;
 }
+
 
 @media (max-width: 768px) {
   .main-container {
